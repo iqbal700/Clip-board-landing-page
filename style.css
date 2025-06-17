@@ -61,7 +61,7 @@
 }
 
 .nav {
-   max-width: 100%;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -110,7 +110,7 @@
 /* === banner section starts here ===  */ 
  
  .banner { 
-   width: 100%;
+    width: 100%;
     margin: 7rem 0;
     display: flex;
     flex-direction: column;
@@ -143,7 +143,7 @@
  /* == banner body ==  */
 
  .banner-body {
-   width: 100%;
+    width: 100%;
     display: flex;
     gap: 7rem;
  }
@@ -152,6 +152,8 @@
     max-width: 45rem;
     margin-left: -1rem;
  }
+
+ /* == banner content ==  */
 
  .banner-content {
     width: 100%;
@@ -181,7 +183,7 @@
     max-width: 40%;
  }
 
- /* ===hero section starts here ===  */
+ /* === hero section starts here ===  */
 
  .hero-section {
     width: 100%;
@@ -210,7 +212,7 @@
     line-height: 1.8;
  }
 
- /* === task sectin starts here === */
+ /* === task section starts here === */
 
  .task {
    width: 100%;
@@ -231,7 +233,7 @@
    color: var(--Gray-500);
  }
 
- /* == upper div ==  */
+ /* == upper task ==  */
 
  .task-div {
    width: 100%;
@@ -259,7 +261,7 @@
    line-height: 1.8;
  }
 
- /* == task img ==  */
+ /* == middle task ==  */
 
  .task-img {
    width: 100%;
@@ -270,7 +272,7 @@
    margin: 5rem auto;
  }
 
- /* == task content bottom ==  */
+ /* == bottom task ==  */
 
  .task-content-bottom {
    margin: 4rem auto;
@@ -287,7 +289,7 @@
   }
 
   .task-content-bottom .btn-sec {
-   margin-top: 2rem;
+      margin-top: 2rem;
   }
 
 
@@ -328,3 +330,8 @@
    font-size: 1.5rem;
    color: var(--Gray-700);
   }
+
+
+/* ========= Thanks For Visiting My Code, 
+
+                 Don't forget to give Love ========= */
