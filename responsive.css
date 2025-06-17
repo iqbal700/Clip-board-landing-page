@@ -1,0 +1,196 @@
+
+
+   /* === Mobile (up to 768px) === */
+
+@media (max-width: 768px) {
+
+  .header {
+    width: 100%;
+    background: url(images/bg-header-mobile.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .nav h1 {
+    font-size: 1.8rem; 
+    text-align: center;
+    }
+
+  .nav p {
+      font-size: 1rem;
+      max-width: 400px; 
+      padding: 1rem; 
+  }
+
+  .btn {
+    width: 100%; 
+      max-width: 100% ; 
+  }
+
+   /* == banner title == */
+
+    .banner { 
+      margin: 5rem auto;  
+      gap: .4rem;  
+      
+  }
+
+    .banner .banner-title h1 {
+        font-size: 1.8rem;
+        text-align: center;
+        
+    }
+
+    .banner .banner-title p {
+      max-width: 90%; 
+    }
+
+   
+    .banner-body {           
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+   
+    .banner-body img {
+
+      width: 20rem;
+      height: auto;                      
+  }
+
+  .banner-content {
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+  /* == pair content ==  */
+
+  .pair-content { 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .5rem;
+                
+  }
+
+  .pair-content h1 {
+        font-size: 1.8rem;
+        
+      }
+
+  .pair-content p {
+        font-size: 1rem;
+        max-width: 70%;
+        text-align: center;
+      }
+
+      /* == hero section ==  */
+
+  .hero-section {
+      margin: 5rem auto;
+      align-items: center;
+      text-align: center;
+      gap: 1.5rem;
+      padding: 1rem;
+  }
+
+  .hero-section img {
+    width: 20rem;
+    margin-top: 2rem;  
+   }
+
+  .hero-section h1 {
+      font-size: 1.8rem;
+  }
+
+ .hero-section p {
+
+    max-width: 90% ;
+    text-align: center;
+
+}
+
+ /* === task section ===  */
+
+  .task {       
+    gap: 1rem;
+    margin: 5rem 0;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .task h1 {
+   font-size: 1.8rem;
+   
+ }
+
+
+ /* == upper div ==  */
+
+ .task-div {
+   margin: 3rem auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+ }
+
+
+ .task-content p {
+   width: 90%;
+  
+ }
+
+ /* == task img ==  */
+
+ .task-img {
+   
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;  
+   justify-content: center;
+   margin: 2rem auto;
+   gap: 5rem;
+ }
+
+ /* == task content bottom ==  */
+
+   .task-content-bottom h1 {
+        font-size: 1.5rem;
+   }
+
+  .task-content-bottom p {
+   width: 90%;
+   text-align: center; 
+  }
+
+ /* === footer section starts here ===  */
+
+  .footer {
+    flex-direction: column;
+    gap: 2rem;
+  } 
+
+  .footer img {
+     width: 3rem;
+  }
+
+  .footer-link {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .footer-link .link {
+   text-align: center;
+  }
+
+
+}
+
+
+
+
+
